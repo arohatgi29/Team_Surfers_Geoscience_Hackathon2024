@@ -87,6 +87,8 @@ GPU version took much less time woith same parameters
 
 ## Shallow Neural Network
 
+<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024" >
+
 ## 1D Wave Equation using PINNs
 
 The 1D wave equation is given by:
