@@ -20,7 +20,6 @@ graph TD;
 
 ## 1+1D viscous Burgers' equation:
 
-## Burgers' Equation
 
 The Burgers' equation is given by:
 
@@ -63,5 +62,11 @@ The physics loss is given by:
 $$
 L_p(\theta) = \frac{1}{N_p} \sum_{i=1}^{N_p} \left( \left( \frac{\partial NN}{\partial t} + NN \frac{\partial NN}{\partial x} - \nu \frac{\partial^2 NN}{\partial x^2} \right)(x_i, t_i; \theta) \right)^2
 $$
+
+## CPU vesrion of reproducibility
+
+We used He normal initializer to initialize the weights to the input layer,  Activation function = tanh, L-BFGS-B = optimizer
+No of iterations = 5000
+
 
 
