@@ -99,7 +99,7 @@ where:
 - \( u(x, t) \) is the displacement at position \( x \) and time \( t \),
 - \( c \) is the speed of the wave.
 
-### Initial and Boundary Conditions
+### Initial and Boundary Conditions (Dirichlet's)
 
 The initial and boundary conditions can be specified as:
 
@@ -120,6 +120,18 @@ where \( f(x) \) is the initial displacement and \( g(x) \) is the initial veloc
 <img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/1D_output%202.gif" >
 
 <img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/dirchlet.png" >
+
+
+### Neumann's Boundary Condition
+
+<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/1D_output_neumann.gif" >
+
+<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/1D_wave_cmap_Neumann.png" >
+
+
+
+
+
 
 
 
