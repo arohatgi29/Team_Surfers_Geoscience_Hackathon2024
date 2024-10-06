@@ -13,9 +13,10 @@ We reproduced the paper Raissi, M., Perdikaris, P. and Karniadakis, G.E., 2019. 
 
 ```mermaid
 graph TD;
-    A(Reproduce Burger's Equation using PINN)-->B(Parameters Sensitivity Analysis);
-    B-->C(Used PINNs to solve 1D wave equation);
-    C-->D(Used PINNs to solve 2D wave equation)
+    A(Understanding PINNs)-->B(Reproduce Burger's Equation using PINN);
+    B-->C(Parameters Sensitivity Analysis);
+    C-->D(Used PINNs to solve 1D wave equation)
+    D-->E(Used PINNs to solve 2D wave equation)
 ```
 
 ## 1+1D viscous Burgers' equation:
