@@ -173,11 +173,13 @@ where:
 The initial and boundary conditions can be specified as:
 
 Initial conditions:
+
 $$
 u(x, y, 0) = f(x, y), \quad \frac{\partial u}{\partial t}(x, y, 0) = g(x, y)
 $$
 
 Boundary conditions:
+
 $$
 u(x, y, t) = 0 \quad \text{on the boundary of the domain}.
 $$
