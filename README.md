@@ -63,7 +63,7 @@ $$
 L_p(\theta) = \frac{1}{N_p} \sum_{i=1}^{N_p} \left( \left( \frac{\partial NN}{\partial t} + NN \frac{\partial NN}{\partial x} - \nu \frac{\partial^2 NN}{\partial x^2} \right)(x_i, t_i; \theta) \right)^2
 $$
 
-## CPU vesrion of reproducibility
+## CPU version of reproducibility
 
 
 ```Shell
@@ -71,6 +71,28 @@ We used He normal initializer to initialize the weights to the input layer,
 Activation function = tanh, L-BFGS-B = optimizer
 No of iterations = 5000
 ```
+
+<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/cpu.png" >
+
+
+## GPU version of reproducibility
+
+GPU version took much less time woith same parameters
+
+
+<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/GPU.png" >
+
+
+<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/GPU1.png" >
+
+## Shallow Neural Network
+
+
+
+
+
+
+
 
 
 
