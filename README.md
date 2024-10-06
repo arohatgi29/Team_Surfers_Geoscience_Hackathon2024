@@ -117,6 +117,13 @@ $$
 
 where \( f(x) \) is the initial displacement and \( g(x) \) is the initial velocity.
 
+<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/1D_output%202.gif" >
+
+<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/dirchlet.png" >
+
+
+
+
 
 
 
