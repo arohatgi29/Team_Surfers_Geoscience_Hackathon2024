@@ -186,8 +186,7 @@ $$
 
 where \( f(x, y) \) is the initial displacement and \( g(x, y) \) is the initial velocity.
 
-
-
+<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/animation_circular_t500.gif" >
 
 
 
