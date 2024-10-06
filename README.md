@@ -45,16 +45,9 @@ $$
 The boundary loss is defined as:
 
 $$
-L_b(\theta) = \frac{\lambda_1}{N_{b1}} \sum_{j=1}^{N_{b1}} \left( NN(x_j, 0; \theta) + \sin(\pi x_j) \right)^2
+L_b(\theta) = \frac{\lambda_1}{N_{b1}} \sum_{j=1}^{N_{b1}} \left( NN(x_j, 0; \theta) + \sin(\pi x_j) \right)^2 + \frac{\lambda_2}{N_{b2}} \sum_{k=1}^{N_{b2}} \left( NN(-1, t_k; \theta) - 0 \right)^2 + \frac{\lambda_3}{N_{b3}} \sum_{l=1}^{N_{b3}} \left( NN(1, t_l; \theta) - 0 \right)^2
 $$
 
-$$
-+ \frac{\lambda_2}{N_{b2}} \sum_{k=1}^{N_{b2}} \left( NN(-1, t_k; \theta) - 0 \right)^2
-$$
-
-$$
-+ \frac{\lambda_3}{N_{b3}} \sum_{l=1}^{N_{b3}} \left( NN(1, t_l; \theta) - 0 \right)^2
-$$
 
 ### Physics Loss
 
