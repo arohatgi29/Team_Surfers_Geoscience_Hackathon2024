@@ -87,6 +87,38 @@ GPU version took much less time woith same parameters
 
 ## Shallow Neural Network
 
+## 1D Wave Equation using PINNs
+
+The 1D wave equation is given by:
+
+$$
+\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
+$$
+
+where:
+- \( u(x, t) \) is the displacement at position \( x \) and time \( t \),
+- \( c \) is the speed of the wave.
+
+### Initial and Boundary Conditions
+
+The initial and boundary conditions can be specified as:
+
+Initial conditions:
+$$
+u(x, 0) = f(x), \quad \frac{\partial u}{\partial t}(x, 0) = g(x)
+$$
+
+Boundary conditions:
+$$
+u(0, t) = u(L, t) = 0
+$$
+
+where \( f(x) \) is the initial displacement and \( g(x) \) is the initial velocity.
+
+
+
+
+
 
 
 
