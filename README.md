@@ -129,6 +129,10 @@ where \( f(x) \) is the initial displacement and \( g(x) \) is the initial veloc
 <img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/1D_wave_cmap_Neumann.png" >
 
 
+## 2D Wave Equation using PINNs
+
+
+
 
 
 
