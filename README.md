@@ -89,6 +89,11 @@ GPU version took much less time woith same parameters
 
 <img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/shalloe.png" >
 
+## Changing number of layers with 50 Neurons
+
+<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/jl_ubmVMNIzsx.gif" >
+
+
 ## 1D Wave Equation using PINNs
 
 The 1D wave equation is given by:
