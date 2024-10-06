@@ -65,8 +65,12 @@ $$
 
 ## CPU vesrion of reproducibility
 
-We used He normal initializer to initialize the weights to the input layer,  Activation function = tanh, L-BFGS-B = optimizer
+
+```Shell
+We used He normal initializer to initialize the weights to the input layer,
+Activation function = tanh, L-BFGS-B = optimizer
 No of iterations = 5000
+```
 
 
 
