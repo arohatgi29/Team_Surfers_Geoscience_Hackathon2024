@@ -121,8 +121,34 @@ where \( f(x) \) is the initial displacement and \( g(x) \) is the initial veloc
 
 <img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/dirchlet.png" >
 
+## Neumann Boundary Condition for 1D Wave Equation
 
-### Neumann's Boundary Condition
+The Neumann boundary condition specifies the derivative of the function at the boundary rather than the function value itself. For the 1D wave equation:
+
+$$
+\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
+$$
+
+The Neumann boundary conditions are given by:
+
+$$
+\frac{\partial u}{\partial x}(0, t) = 0, \quad \frac{\partial u}{\partial x}(L, t) = 0
+$$
+
+where:
+- \( \frac{\partial u}{\partial x} \) is the spatial derivative of \( u \) at the boundaries \( x = 0 \) and \( x = L \),
+- \( L \) is the length of the domain.
+
+### Initial Condition
+
+The initial condition can be specified as:
+
+$$
+u(x, 0) = f(x), \quad \frac{\partial u}{\partial t}(x, 0) = g(x)
+$$
+
+where \( f(x) \) is the initial displacement, and \( g(x) \) is the initial velocity.
+
 
 <img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/1D_output_neumann.gif" >
 
@@ -130,6 +156,33 @@ where \( f(x) \) is the initial displacement and \( g(x) \) is the initial veloc
 
 
 ## 2D Wave Equation using PINNs
+## 2D Wave Equation
+
+The 2D wave equation is given by:
+
+$$
+\frac{\partial^2 u}{\partial t^2} = c^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right)
+$$
+
+where:
+- \( u(x, y, t) \) is the displacement at position \( (x, y) \) and time \( t \),
+- \( c \) is the speed of the wave.
+
+### Initial and Boundary Conditions
+
+The initial and boundary conditions can be specified as:
+
+Initial conditions:
+$$
+u(x, y, 0) = f(x, y), \quad \frac{\partial u}{\partial t}(x, y, 0) = g(x, y)
+$$
+
+Boundary conditions:
+$$
+u(x, y, t) = 0 \quad \text{on the boundary of the domain}.
+$$
+
+where \( f(x, y) \) is the initial displacement and \( g(x, y) \) is the initial velocity.
 
 
 
