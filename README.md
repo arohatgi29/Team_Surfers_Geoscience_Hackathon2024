@@ -104,11 +104,13 @@ where:
 The initial and boundary conditions can be specified as:
 
 Initial conditions:
+
 $$
 u(x, 0) = f(x), \quad \frac{\partial u}{\partial t}(x, 0) = g(x)
 $$
 
 Boundary conditions:
+
 $$
 u(0, t) = u(L, t) = 0
 $$
