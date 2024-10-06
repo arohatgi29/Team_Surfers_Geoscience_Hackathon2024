@@ -87,7 +87,7 @@ GPU version took much less time woith same parameters
 
 ## Shallow Neural Network
 
-<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024" >
+<img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/shalloe.png" >
 
 ## 1D Wave Equation using PINNs
 
