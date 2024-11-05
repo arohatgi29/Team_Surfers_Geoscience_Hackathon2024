@@ -3,7 +3,7 @@
 <img src="https://github.com/arohatgi29/Team_Surfers_Geoscience_Hackathon2024/blob/main/Images/2024-Geoscience-Hackathon-Logo.jpg" >
 
 
-##### This repository have all the resources and results used in the JSG Open Source Hackathon 2024
+##### This repository has all the resources and results used in the JSG Open Source Hackathon 2024
 
 We reproduced the paper Raissi, M., Perdikaris, P. and Karniadakis, G.E., 2019. Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational physics, 378, pp.686-707
 
